@@ -1,0 +1,28 @@
+{
+  "name": "sun-wallpaper",
+  "version": "1.0.0",
+  "description": "A script that selects wallpaper based on sun position",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "example": "ts-node src/index.ts 31.9544 35.9106",
+    "example:time": "ts-node src/index.ts 31.9544 35.9106 2025-03-18 17:00",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "zod": "^3.22.4"
+  }
+}
